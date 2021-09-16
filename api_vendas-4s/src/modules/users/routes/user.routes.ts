@@ -5,6 +5,7 @@ import UserController from '../controllers/UserController'
 
 // import celebrate
 import {celebrate, Joi, Segments} from 'celebrate'
+import isAuthenticated from '../../../shared/middleware/isAuthenticated'
 
 // cria a rota do produto
 let userRouter = Router()
